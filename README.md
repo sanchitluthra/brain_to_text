@@ -14,6 +14,8 @@ Built on the **Brain-to-Text 2025** competition dataset from participant **T15**
 ---
 
 ## How it works
+
+```
 Brain signals (512 electrodes)
         ↓
   Day-specific adapter        ← handles signal drift across sessions
@@ -25,6 +27,8 @@ Brain signals (512 electrodes)
   CMUdict + 4-gram LM         ← phonemes → real English words
         ↓
        Text
+```
+
 ---
 
 ## Results
