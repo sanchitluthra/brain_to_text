@@ -15,16 +15,16 @@ Built on the **Brain-to-Text 2025** competition dataset from participant **T15**
 
 ## How it works
 Brain signals (512 electrodes)
-↓
-Day-specific adapter        ← handles signal drift across sessions
-↓
-5-layer GRU model           ← learns phoneme patterns over time
-↓
-CTC decoding                ← converts sequence to phonemes
-↓
-CMUdict + 4-gram LM         ← phonemes → real English words
-↓
-Text
+        ↓
+  Day-specific adapter        ← handles signal drift across sessions
+        ↓
+  5-layer GRU model           ← learns phoneme patterns over time
+        ↓
+  CTC decoding                ← converts sequence to phonemes
+        ↓
+  CMUdict + 4-gram LM         ← phonemes → real English words
+        ↓
+       Text
 ---
 
 ## Results
