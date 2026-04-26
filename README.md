@@ -9,7 +9,7 @@
 
 When a person thinks of speaking a sentence, their brain fires electrical signals. This project takes those raw neural signals and converts them into text using deep learning.
 
-Built on the **Brain-to-Text 2025** competition dataset from participant **T15** — 45 recording sessions spanning 2023–2025.
+Built on the **Brain-to-Text 2025** competition dataset  — 45 recording sessions spanning 2023–2025.
 
 ---
 
